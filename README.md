@@ -17,4 +17,3 @@ Here are some ideas to get you started:
 巨匠認證班
 <p>
 <a https://github.com/ha450759/ha450759/blob/master/src/main/java/com/ocp/day01/HelloWord.java">HelloWorld1d 我的第一支 Java 程式</a>
-
