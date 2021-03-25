@@ -1,6 +1,6 @@
 package com.ocp.day06;
 
-public class ArayCV {
+public class ArrayCV {
     public static void main(String[] args) {
         double[] nums = {10, 20, 30};
         // 求總和
@@ -21,5 +21,8 @@ public class ArayCV {
         System.out.printf("Sum of squares: %.1f", sumOfSquares);
         double sd = Math.sqrt((1.0/nums.length) * sumOfSquares);
         System.out.printf("S,D: %.1f\n", sd);
+        // 變異係數 CV
+        double cv =sd / avg;
+        System.out.printf("C.V: %.1f\n", cv);
     }
 }
