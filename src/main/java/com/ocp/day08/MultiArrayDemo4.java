@@ -8,7 +8,8 @@ public class MultiArrayDemo4 {
         for(double[] x : hw) {
             double h = x[0];
             double w = x[1];
-            double bmi = w / Math.pow(h/100, 2);
+            double bmi = h / Math.pow(h/100, 2);
+            double bmi = w / Math.pow(w/100, 2);
             System.out.printf("%.2f\n", bmi);
         }
     }
