@@ -84,7 +84,9 @@ public class ExtendsDemo {
         // Java 8
         int sum7 = Stream.of(employees)
                 .filter(e -> e instanceof Manager)
+                .peek(System.out::println)
                 .mapToInt(Employee::getSalary)
+                .peek(System.out::println)
                 .sum();
          System.out.printf("Manager 總薪資: %,d\n", sum7);
     }
