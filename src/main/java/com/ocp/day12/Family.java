@@ -2,7 +2,13 @@ package com.ocp.day12;
 
 class Father {
 
+    public Father() {
+        System.out.println("Father");
+    }
+    
+
     public Father(int x) {
+        this();
         System.out.println("Father: " + x);
     }
     
@@ -10,8 +16,12 @@ class Father {
 class Son extends Father {
 
     public Son() {
-        super(100);
+        this(100);
         System.out.println("Son");
+    }
+    Son(int x) {
+        super(x);
+        System.out.println("Son: " + x);
     }
     
 }
