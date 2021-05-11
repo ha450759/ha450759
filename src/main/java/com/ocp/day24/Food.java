@@ -8,6 +8,9 @@ public class Food {
     private int price;
 
     public Food(String name, char size, int price) {
+        if (name.length() == 3) {
+             name = name.concat("　");
+        }
         this.name = name;
         this.size = size;
         this.price = price;
