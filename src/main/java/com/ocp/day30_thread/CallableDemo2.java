@@ -45,7 +45,7 @@ public class CallableDemo2 {
         double total = cost + fee;
         // 印出交易成本（含手續費）
         
-        System.out.printf("買進 %s price: $%,.1f amount: %,d 股 cost: $%,.1f fee: $%,.1f total: $%,.1f\n",
+        System.out.printf("買進台積電 %s price: $%,.1f amount: %,d 股 cost: $%,.1f fee: $%,.1f total: $%,.1f\n",
                 symbol, price, amount, cost, fee, total);
     }
 }
